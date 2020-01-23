@@ -13,7 +13,7 @@ A golang echo tiny webserver/loadbalancer with autocert.
 - Add binary file or it's link to your `PATH` environment
 - run `chmod +x tiny-webserver` in unix/linux to make binary file executable for first time
 
-### download and installation in linux
+### download and installation on linux
 
 ```shell script
 sudo curl -L https://github.com/mahmoud-eskandari/tiny-webserver/releases/download/1.0.0/linux-amd64 -o /usr/local/bin/tserver
