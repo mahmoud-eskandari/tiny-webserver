@@ -42,6 +42,7 @@ func main() {
 	if *version {
 		fmt.Println("Tiny Webserver version: " + VERSION)
 		fmt.Println("Golang Echo version: " + echo.Version)
+		return
 	}
 
 	//Create New Echo handler
