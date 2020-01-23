@@ -1,4 +1,4 @@
-# Tiny Webserver
+# Tiny Webserver (tserver)
 A golang echo tiny webserver/loadbalancer with autocert.
 
 ## Features
@@ -13,6 +13,14 @@ A golang echo tiny webserver/loadbalancer with autocert.
 - Add binary file or it's link to your `PATH` environment
 - run `chmod +x tiny-webserver` in unix/linux to make binary file executable for first time
 
+### download and installation in linux
+
+```shell script
+sudo curl -L https://github.com/mahmoud-eskandari/tiny-webserver/releases/download/1.0.0/linux-amd64 -o /usr/local/bin/tserver
+sudo chmod +x /usr/local/bin/tserver
+sudo ln -s /usr/local/bin/tserver /usr/bin/tserver
+tserver -v
+```
 ### Usage:
 ```shell script
   -cert_crt_path string
