@@ -43,6 +43,8 @@ tserver -v
         Max POST body size (default "1M")
   -p string
         reverse proxies comma delimited(http://host1,http://host2...)
+  -random-proxy
+    	  set reverse proxy algorithm to random (default: round-robin)
   -path string
         file server public path
   -ssl
