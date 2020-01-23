@@ -41,10 +41,10 @@ A golang echo tiny webserver/loadbalancer with autocert.
         SSL enabled
   -ssl_port int
         SSL default port (default 443)
-  -rate_burst int
+  -rb int
         Rate Limit Burst (default 3)
-  -rate_time int
-        Rate Rate Limit time(Minute) (default 3)
+  -rt int
+        Rate Limit time(Minute) (default 3)
 ```
 
 ### It's made for ease of use
