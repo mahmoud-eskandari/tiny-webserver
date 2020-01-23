@@ -45,6 +45,8 @@ A golang echo tiny webserver/loadbalancer with autocert.
         Rate Limit Burst (default 3)
   -rt int
         Rate Limit time(Minute) (default 3)
+  -v int
+       Print current version and exit
 ```
 
 ### It's made for ease of use
