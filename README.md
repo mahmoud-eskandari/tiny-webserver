@@ -1,19 +1,19 @@
 # Tiny Webserver
 A golang echo tiny webserver/loadbalancer with autocert.
 
-#Features
+## Features
 * Serve static files
 * Round-robin reverse proxy
 * Random reverse proxy
 * Autocert any domain
 * Max size / rate limit protect
 
-###Installation:
+### Installation:
 - Download latest build files from github release page
 - Add binary file or it's link to your `PATH` environment
 - run `chmod +x tiny-webserver` in unix/linux to make binary file executable for first time
 
-###Usage:
+### Usage:
 ```shell script
   -cert_crt_path string
         SSL CRT file path (default "/var/www/ssl/cert.crt")
